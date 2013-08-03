@@ -1,0 +1,17 @@
+<div class="section">
+    <h3>Expériences professionnelles
+        <div class="lefthead"></div>
+    </h3>
+    <div class="content">
+        {% for experience in experiences %}
+            <div class="item">
+                <div class="date">{{ experience.date.begin }} - {{ experience.date.end }}</div>
+                <h4>{{ experience.jobTitle }}</h4>
+                <h5>{{ experience.company }}</h5>
+
+                <p>{{ experience.content }}</p>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="clear"></div>
+</div>

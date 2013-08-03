@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-0": {
+        }
+    },
+    "name": "fmagnan/resume",
+    "require": {
+        "twig/twig": "v1.13.2"
+    }
+
+}
