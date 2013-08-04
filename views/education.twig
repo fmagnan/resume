@@ -1,34 +1,14 @@
-<div class="section">
+<div class="section education">
     <h3>Formation
         <div class="lefthead"></div>
     </h3>
-    <div class="content">
+    {% for diploma in education %}
         <div class="item">
-            <div class="date">SEP 2008 - PRESENT</div>
-            <h4>Edinburgh University</h4>
-            <h5>Business &amp; Economics</h5>
-
-            <p>I began studying at Edinburgh University in 2008 to enhance my knowledge of the intricacies of a
-                business. I have learned a lot through the course but believe there is much more to be learned from
-                first hand experience than reading out of a book. </p>
+            <div class="title">
+                <span class="date">{{ diploma.date }}</span>
+                <span>{{ diploma.title }}, {{ diploma.place }}</span>
+            </div>
         </div>
-
-        <div class="item">
-            <h4>Knox Academy</h4>
-            <h5>High-school</h5>
-
-            <div class="date">AUG 2002 - FEB 2008</div>
-            <p>I ended my time at high-school in 2008. The qualifications received after my fifth year of study
-                were:</p>
-            <ul>
-                <li><strong>A</strong> - English</li>
-                <li><strong>A</strong> - Maths</li>
-                <li><strong>A</strong> - Physics</li>
-                <li><strong>A</strong> - Biology</li>
-                <li><strong>A</strong> - Physical Education</li>
-            </ul>
-        </div>
-
-    </div>
+    {% endfor %}
     <div class="clear"></div>
 </div>

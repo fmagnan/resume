@@ -1,29 +1,16 @@
-<div class="section">
+<div class="section skills">
     <h3>Compétences
         <div class="lefthead"></div>
     </h3>
-    <div class="content">
+    {% for category in skills %}
         <div class="item">
-            <h4>Computer</h4>
+            <div>{{ category.title }}</div>
             <ul>
-                <li>CSS</li>
-                <li>HTML</li>
-                <li>jQuery</li>
-                <li>Wordpress Integration</li>
-                <li>Photoshop Designing</li>
+                {% for term in category.items %}
+                    <li>{{ term }}</li>
+                {% endfor %}
             </ul>
         </div>
-
-        <div class="item">
-            <h4>Personal</h4>
-            <ul>
-                <li>Teamwork (experience playing basketball at a national level)</li>
-                <li>Ability to learn quickly</li>
-                <li>Ambitious</li>
-                <li>Constantly learning and developing my skills</li>
-            </ul>
-        </div>
-
-    </div>
+    {% endfor %}
     <div class="clear"></div>
 </div>

@@ -1,11 +1,17 @@
-<div id="info">
-    <p><strong>Email</strong> {{ info.email }}</p>
-
-    <p><strong>GitHub</strong> {{ info.github }}</p>
-
-    <p><strong>LinkedIn</strong> {{ info.linkedin }}</p>
-
-    <div id="contact">
-        <span>a conserver ?</span>
-    </div>
-</div>
+<ul class="info icons-ul">
+    <li>
+        <i class="icon-envelope icon-large"></i><a href="mailto:{{ info.email }}">Contact</a>
+    </li>
+    <li>
+        <i class="icon-phone icon-large"></i>{{ info.phone }}
+    </li>
+    <li>
+        <i class="icon-mobile-phone icon-large"></i>{{ info.cellular }}
+    </li>
+    <li>
+        <i class="icon-cloud icon-large"></i><a href="{{ info.website }}">Blog</a>
+    </li>
+    <li>
+        <i class="icon-github icon-large"></i><a href="{{ info.github }}">GitHub</a>
+    </li>
+</ul>

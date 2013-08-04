@@ -16,7 +16,7 @@ function getView($path)
     $loader = new Twig_Loader_Filesystem($path . 'views');
     $view = new Twig_Environment($loader, array(
         'auto_reload' => true,
-        'cache' => $path . 'cache',
+        'cache' => false,
     ));
     return $view;
 }
