@@ -14,10 +14,20 @@
                 /
                 <a href="{{ experience.companyWebsite }}">{{ experience.company }}</a>
             </div>
-            <p>{{ experience.description }}</p>
             <ul>
                 {% for task in experience.tasks %}
-                    <li>{{ task }}</li>
+                    {% if task is iterable %}
+                        <li>
+                            {{ task.description }}
+                            <ul>
+                                {% for subtask in task.subtasks %}
+                                    <li>{{ subtask }}</li>
+                                {% endfor %}
+                            </ul>
+                        </li>
+                    {% else %}
+                        <li>{{ task }}</li>
+                    {% endif %}
                 {% endfor %}
             </ul>
         </div>
