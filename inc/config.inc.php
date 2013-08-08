@@ -30,27 +30,27 @@ return array(
                 'publishing' => array(
                     'description' => 'Lead developer du pôle publishing',
                     'subtasks' => array(
-                        'Récupération du code existant des loteries en ligne Kingoloto, Bananalotto et Luckysurf',
-                        'Mise en place de composer, migration de php 5.2 en php 5.4',
-                        'Optimisation des performances (frontend et backend)',
-                        'Animation de l\'équipe (3 personnes)',
-                        'Réalisation d\'un moteur de génération de sites de concours'
+                        'Récupération du code existant des loteries en ligne Kingoloto, Bananalotto et Luckysurf.',
+                        'Mise en place de composer, migration de php 5.2 en php 5.4.',
+                        'Optimisation des performances (frontend et backend).',
+                        'Animation de l\'équipe (3 personnes).',
+                        'Réalisation d\'un moteur de génération de sites de concours.'
                     )
                 ),
                 'gamespassport' => array(
                     'description' => 'Optimisation de la partie cliente du site gamespassport',
                     'subtasks' => array(
-                        'audit du code, optimisation et remaniement du code',
-                        'diminution du temps de chargement d\'une page de l\'ordre de 60%',
+                        'audit du code, optimisation et remaniement du code.',
+                        'diminution du temps de chargement d\'une page de l\'ordre de 60%.',
                     )
                 ),
                 'monetisation' => array(
                     'description' => 'Développeur backend sur MdsMatch, AdServer propriétaire de Mediastay',
                     'subtasks' => array(
-                        'Découverte et appropriation du code en complète autonomie',
-                        'Conception et développement de nouvelles fonctionnalités',
-                        'Correction de bugs, d\'anomalies et optimisation du code',
-                        'Mise en place de tests unitaires et de l\'intégration continue (Jenkins)'
+                        'Découverte et appropriation du code en complète autonomie.',
+                        'Conception et développement de nouvelles fonctionnalités.',
+                        'Correction de bugs, d\'anomalies et optimisation du code.',
+                        'Mise en place de tests unitaires et de l\'intégration continue (Jenkins).'
                     )
                 )
             ),
@@ -69,17 +69,17 @@ return array(
                 'php' => array(
                     'description' => 'Travail au forfait au sein du pôle PHP / Tierce Maintenance Applicative',
                     'subtasks' => array(
-                        'Audit de code',
-                        'Soutien auprès des développeurs juniors'
+                        'Audit de code.',
+                        'Soutien auprès des développeurs juniors.'
                     )
                 ),
                 'drupal' => array(
                     'description' => 'Réalisation du site de La Provence',
                     'subtasks' => array(
                         'Migration iso-fonctionnalités du site basé sur la solution propriétaire
-                        NStein vers une solution open source basée sur Drupal 6',
-                        'Développement de modules Drupal (backoffice et frontoffice)',
-                        'Responsable de la reprise des données du site existant'
+                        NStein vers une solution open source basée sur Drupal 6.',
+                        'Développement de modules Drupal (backoffice et frontoffice).',
+                        'Responsable de la reprise des données du site existant.'
                     )
                 ),
                 'ezpublish' => array(
@@ -98,35 +98,35 @@ return array(
                     'description' => 'Travaux autour de la solution logicielle Typo3',
                     'subtasks' => array(
                         'Reprise du site éditorial de FlashInfos. Amélioration du système de création et d\'envoi
-                        de newsletters (Typo3 + PHPLIST)',
+                        de newsletters (Typo3 + PHPLIST).',
                         'Réalisation de 3 sites extranet destinés à des clientèles différentes d\'une mutuelle
-                        et disposant d\'une interface d\'administration commune',
+                        et disposant d\'une interface d\'administration commune.',
                         'Création de modules Typo3 variés : thèmes graphiques, import et export des données,
-                        interface administrateur, interface utilisateur',
-                        'Formation auprès des utilisateurs (éditeurs et administrateurs)',
+                        interface administrateur, interface utilisateur.',
+                        'Formation auprès des utilisateurs (éditeurs et administrateurs).',
                         'Prise en charge de la tierce maintenance applicative (correction des anomalies, chiffrage et
-                        développement de nouvelles fonctionnalités)'
+                        développement de nouvelles fonctionnalités).'
                     )
                 ),
                 'ruby' => array(
                     'description' => 'Dans le cadre de la refonte de l\'outil de gestion de tickets Xguard,
                     adaptation de la solution logicielle Redmine',
                     'subtasks' => array(
-                        'Autoformation sur le langage Ruby, le framework Ruby on Rails et le logiciel Redmine',
+                        'Autoformation sur le langage Ruby, le framework Ruby on Rails et le logiciel Redmine.',
                         'Développement d\'extensions visant à gérer des objets génériques (création, modification,
-                        suppression) et les liens qui les unissent ("appartient", "contient", "hérite" ...)'
+                        suppression) et les liens qui les unissent ("appartient", "contient", "hérite" ...).'
                     )
                 ),
                 'java' => array(
                     'description' => 'Travaux en java',
                     'subtasks' => array(
                         'Réalisation d\'un module de manipulation d\'image (redimensionnement et rognage)
-                     en Java, Jsp et Javascript',
+                     en Java, Jsp et Javascript.',
                         'Migration d\'une application web de suivi de projets commerciaux depuis un framework
-                        propriétaire Java vers Struts',
-                        'Portage d\'une application équivalente à 15 années/homme (300 000 lignes)',
+                        propriétaire Java vers Struts.',
+                        'Portage d\'une application équivalente à 15 années/homme (300 000 lignes).',
                         'Mise en place d\'une démarche agile (eXtreme Programming) incluant travail en binôme, métrique
-                        quotidienne, feedback rapide, développement incrémental, hiérarchisation des tâches'
+                        quotidienne, feedback rapide, développement incrémental, hiérarchisation des tâches.'
                     )
                 ),
             ),
@@ -145,9 +145,9 @@ return array(
                 'vat' => array(
                     'description' => 'Service national en tant que volontaire à l\'aide technique',
                     'subtasks' => array(
-                        'Administration du réseau, des serveurs, de la messagerie, des sauvegardes (Linux, HP-UX, Novell)',
-                        'Assistance à 80 utilisateurs (sur site et par téléphone) : tout niveau de gravité',
-                        'Maintenance matérielle sur les postes de travail (Windows 95, 98 et 2000)'
+                        'Administration du réseau, des serveurs, de la messagerie, des sauvegardes (Linux, HP-UX, Novell).',
+                        'Assistance à 80 utilisateurs (sur site et par téléphone) : tout niveau de gravité.',
+                        'Maintenance matérielle sur les postes de travail (Windows 95, 98 et 2000).'
                     )
                 )
             ),
