@@ -25,7 +25,7 @@ $mode = 'raw';
 
 if ('raw' == $mode) {
     $mainTemplate = 'raw/main.twig';
-    $outputFile = 'index.txt';
+    $outputFile = 'resume.txt';
 } else {
     $mainTemplate = 'main.twig';
     $outputFile = 'index.html';
