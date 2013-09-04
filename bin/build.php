@@ -21,8 +21,26 @@ function getView($path)
     return $view;
 }
 
+$mode = 'raw';
+
+if ('raw' == $mode) {
+    $mainTemplate = 'raw/main.twig';
+    $outputFile = 'index.txt';
+} else {
+    $mainTemplate = 'main.twig';
+    $outputFile = 'index.html';
+}
+
 $data = importData($projectRootPath);
 $view = getView($projectRootPath);
-$resume = $view->render('main.twig', $data);
+$resume = $view->render($mainTemplate, $data);
+$outputFilePath = $projectRootPath . $outputFile;
 
-file_put_contents($projectRootPath . 'index.html', $resume);
+$isFileWritten = file_put_contents($outputFilePath, $resume);
+
+if (false === $isFileWritten) {
+    $result = 'failure';
+} else {
+    $result = 'success';
+}
+echo $result . ' on writing output file ' . $outputFilePath . PHP_EOL;
