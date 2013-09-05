@@ -1,9 +1,0 @@
-
-Compétences
-{% for category in skills %}
-
-{{ category.title|raw }}
-{% for term in category.items %}
-- {{ term|raw }}
-{% endfor %}
-{% endfor %}

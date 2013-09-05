@@ -3,8 +3,12 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>{{ bio.firstname }} {{ bio.lastname }} -- CV</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+    {% for cssFile in cssFiles[mode] %}
+        <link rel="stylesheet" type="text/css" href="{{ cssFile }}" />
+    {% endfor %}
+
+
 </head>
 
 <body>

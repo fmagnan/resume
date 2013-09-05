@@ -1,6 +1,10 @@
 <?php
 
 return array(
+    'cssFiles' => array(
+        'raw' => array('../../css/raw.css'),
+        'web' => array('../../css/style.css', 'http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css')
+    ),
     'bio' => array(
         'firstname' => 'Franck',
         'jobTitle' => 'Lead Developer / Architecte PHP',

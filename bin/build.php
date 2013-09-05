@@ -21,26 +21,21 @@ function getView($path)
     return $view;
 }
 
-$mode = 'raw';
-
-if ('raw' == $mode) {
-    $mainTemplate = 'raw/main.twig';
-    $outputFile = 'resume.txt';
-} else {
-    $mainTemplate = 'main.twig';
-    $outputFile = 'index.html';
-}
-
 $data = importData($projectRootPath);
 $view = getView($projectRootPath);
-$resume = $view->render($mainTemplate, $data);
-$outputFilePath = $projectRootPath . $outputFile;
+$modes = array('web', 'raw');
 
-$isFileWritten = file_put_contents($outputFilePath, $resume);
+foreach ($modes as $mode) {
+    $data['mode'] = $mode;
+    $resume = $view->render('main.twig', $data);
+    $outputFilePath = $projectRootPath . 'output/' . $mode . '/resume.html';
 
-if (false === $isFileWritten) {
-    $result = 'failure';
-} else {
-    $result = 'success';
+    $isFileWritten = file_put_contents($outputFilePath, $resume);
+
+    if (false === $isFileWritten) {
+        $result = 'failure';
+    } else {
+        $result = 'success';
+    }
+    echo $result . ' on writing output file ' . $outputFilePath . PHP_EOL;
 }
-echo $result . ' on writing output file ' . $outputFilePath . PHP_EOL;
