@@ -1,0 +1,81 @@
+{
+    "bio": {
+        "firstName": "Franck",
+        "lastName": "Magnan",
+        "email": {
+            "work": "fmagnan@mediastay.com",
+            "personal": "fmagnan@gmail.com"
+        },
+        "phone": {
+            "work": "N/A",
+            "personal": "N/A"
+        },
+        "summary": "",
+        "location": {
+            "city": "Lyon",
+            "countryCode": "FR",
+            "state": "France"
+        },
+        "websites": {
+            "blog": "http://fmagnan.gamelab.fr"
+        },
+        "profiles": {
+            "github": "fmagnan",
+            "twitter": "MagnanFranck"
+        }
+    },
+    "work": [
+        {
+            "company": "Mediastay",
+            "position": "Lead PHP Developer",
+            "website": "http://mediastay.com",
+            "startDate": "2011-10-28",
+            "summary": "Give an overview of your responsibilities at the company",
+            "highlights": [
+                "Récupération du code existant des loteries en ligne Kingoloto, Bananalotto et Luckysurf.",
+                "Mise en place de composer, migration de php 5.2 en php 5.4.",
+                "Optimisation des performances (frontend et backend).",
+                "Animation de l'équipe (4 personnes).",
+                "Réalisation d'un moteur de génération de sites de concours."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Université Montpellier 2",
+            "startDate": "1993-10-01",
+            "endDate": "2000-06-30",
+            "area": "Informatique",
+            "studyType": "Licence - maîtrise - DESS"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Langages",
+            "level": "Master",
+            "keywords": [
+                "HTML",
+                "PHP",
+                "Javascript"
+            ]
+        },
+        {
+            "name": "Outils",
+            "level": "Master",
+            "keywords": [
+                "git",
+                "linux",
+                "jQuery"
+            ]
+        },
+        {
+            "name": "Logiciels",
+            "level": "Master",
+            "keywords": [
+                "Drupal",
+                "Symfony",
+                "eZpublish"
+            ]
+        }
+    ]
+}
